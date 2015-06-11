@@ -22,7 +22,7 @@ bgColor = r,g,b = 0, 0, 10
 
 screen = pygame.display.set_mode(size)
 
-bgImage = pygame.image.load("images/Screens/Start Screen.png").convert()
+bgImage = pygame.image.load("images/Screens/Chicken.png").convert()
 bgRect = bgImage.get_rect()
 
 balls = pygame.sprite.Group()
